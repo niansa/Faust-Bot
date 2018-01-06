@@ -9,7 +9,7 @@ class ModmailObserver(PrivMsgObserverPrototype):
 
     @staticmethod
     def help():
-        return ".modmail <msg> - Benachrichtig alle Moderatoren"
+        return ".modmail <msg> - Sendet allen Moderatoren <msg> per PN"
 
     def update_on_priv_msg(self, data, connection: Connection):
         if data['message'].find('.modmail') == -1:
