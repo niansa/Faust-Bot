@@ -1,5 +1,9 @@
+# FaustBot/Modules/TitleObserver.py: 5
+beautifulsoup4 == 4.6.0
+
 # FaustBot/Modules/ComicObserver.py: 3
 # FaustBot/Modules/ComicScraper.py: 3
+# FaustBot/Modules/TitleObserver.py: 2
 requests == 2.4.3
 
 # FaustBot/Modules/WikiObserver.py: 1
